@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import './Header.css'
 import { Link, useNavigate } from "react-router-dom";
 import {MdOutlineDarkMode, MdOutlineLightMode} from 'react-icons/md'
-import { ThemeContext } from '../../context/Themecontext'
+import { ThemeContext } from '../../context/ThemeContext'
 import { UserContext } from "../../context/UserContext";
 import axios from "axios";
 import SearchResult from "../SearchResult/SearchResult";
