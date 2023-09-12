@@ -1,6 +1,6 @@
 import React, { useState, useTransition } from "react";
 import axios from "axios";
-import './SignUp.css'
+import './Signup.css'
 
 
 function SignUp() {
