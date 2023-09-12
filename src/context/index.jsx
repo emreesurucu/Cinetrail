@@ -1,5 +1,5 @@
 import React from "react";
-import ThemeContextProvider from "./Themecontext"
+import ThemeContextProvider from "./ThemeContext"
 import UserContextProvider from "./UserContext"
 
 export default function CombinedContextProvider({children}) {
